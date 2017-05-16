@@ -3,7 +3,7 @@ require 'HTTParty'
 
 @header_xapix = {
   "Accept": "application/json",
-  "Authorization": "chatbot:Cq2Og81xi48n3eZz6dQRWGuKVAsbwLj2"
+  "Authorization": "xx2"
 }
 
 # received_message_url = "https://xap.ix-io.net/api/v1/twilio/account_messages?filter%5Baccount_sid%5D=AC0d8bb04ed7587bb49fdccc8ca5cff8fc&fields%5Baccount_messages%5D=first_page_uri%2Cend%2Cprevious_page_uri%2Curi%2Cpage_size%2Cstart%2Cnext_page_uri%2Caccount_sid%2Cpage&include=messages&sort=account_sid&page%5Bnumber%5D=1&page%5Bsize%5D=100
@@ -11,9 +11,9 @@ require 'HTTParty'
 
 # received_messages = HTTParty.get(received_message_url, headers: @header)
 
-auth = {:username => "AC0d8bb04ed7587bb49fdccc8ca5cff8fc", :password => "e569547306a11b8771bba40159b46d6b"}
+auth = {:username => "xx", :password => "xx"}
 
-twilio_url = 'https://api.twilio.com/2010-04-01/Accounts/AC0d8bb04ed7587bb49fdccc8ca5cff8fc/Messages.json'
+twilio_url = 'https://api.twilio.com/2010-04-01/Accounts/xx/Messages.json'
 
 header = {
   "Accept": "application/json",
